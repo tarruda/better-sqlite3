@@ -97,7 +97,8 @@
         'SQLITE_USE_URI=1',
         'SQLITE_DEFAULT_CACHE_SIZE=-16000',
         'SQLITE_DEFAULT_FOREIGN_KEYS=1',
-        'SQLITE_DEFAULT_WAL_SYNCHRONOUS=1'
+        'SQLITE_DEFAULT_WAL_SYNCHRONOUS=1',
+        'SQLITE_ENABLE_UPDATE_DELETE_LIMIT=1'
       ],
       'export_dependent_settings': [
         'action_before_build',
